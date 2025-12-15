@@ -40,7 +40,6 @@ public class LoadTask extends SwingWorker<List<Task>, Void> {
             }
         }
 
-        Thread.sleep(4000); // symulacja długiej operacji
         return tasks;
     }
 
