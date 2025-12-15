@@ -7,7 +7,7 @@ public class DBU {
     private static final String URL =
             "jdbc:mysql://localhost:3306/taskmanager?useSSL=false&serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PASSWORD = ""; // zmień jeśli inne
+    private static final String PASSWORD = "";
 
     static {
         try {
